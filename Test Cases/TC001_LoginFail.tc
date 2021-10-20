@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_LoginFail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44cd0c6a-c83f-4f04-92a9-ad7b78da10dc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29b2750f-0cb0-4780-880b-70d9ece89ddc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a354d110-3dea-49f6-a8bb-7e5d474129e6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

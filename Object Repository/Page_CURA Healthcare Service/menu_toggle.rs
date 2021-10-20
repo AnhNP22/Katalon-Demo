@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_CURA Healthcare_fa fa-bars</name>
+   <name>menu_toggle</name>
    <tag></tag>
    <elementGuidId>c4605b78-c027-42d9-a070-45bb0395bdf4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu-toggle']/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.fa.fa-bars</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-toggle']/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

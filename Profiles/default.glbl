@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://katalon-demo-cura.herokuapp.com'</initValue>
+      <name>URL_Demo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Login failed! Please ensure the username and password are valid.'</initValue>
+      <name>Login_ErrorMessage</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

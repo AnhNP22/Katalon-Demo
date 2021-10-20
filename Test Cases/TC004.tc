@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify case the username is empty and the password is input</description>
-   <name>TC004</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2454eb8d-8e24-470a-9179-971797388106</testCaseGuid>
-</TestCaseEntity>

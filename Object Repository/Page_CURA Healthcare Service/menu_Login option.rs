@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Login</name>
+   <name>menu_Login option</name>
    <tag></tag>
-   <elementGuidId>d716e920-4538-4a0f-802f-da8f01cbff87</elementGuidId>
+   <elementGuidId>a727dbf9-90b2-495e-9f55-6b25c042a37d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

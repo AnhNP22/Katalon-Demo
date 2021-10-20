@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.URL_Demo)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/menu_toggle'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/menu_Login option'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'))
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.verifyTextPresent('Login failed! Please ensure the username and password are valid.', false)
+WebUI.verifyTextPresent(GlobalVariable.Login_ErrorMessage, true)
 
